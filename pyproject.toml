@@ -1,0 +1,21 @@
+[project]
+name = "pyqsofit"
+version = "3.0.0"
+description = "PyQSOFit is a Python package for fitting quasar spectra, providing tools to measure spectral properties of SDSS quasars. It includes main routines, Fe II templates, parameter lists, galaxy templates, and dust reddening maps, supporting flexible multi-component fitting and uncertainty estimation for astronomical spectral"
+authors = [
+    {name = "Wenke Ren",email = "wenke.ren@shao.ac.cn"},
+    {name = "Hengxiao Guo"}
+]
+license = {text = "GNU GENERAL PUBLIC LICENSE"}
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy (>=2.3.2,<3.0.0)",
+    "scipy (>=1.16.1,<2.0.0)",
+    "astropy (>=7.1.0,<8.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
